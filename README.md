@@ -1,4 +1,4 @@
-# auto-x
+# X
 
 Small and simple Javascript library with interesting features.
 
