@@ -19,7 +19,7 @@
 		"build-css": "postcss src/css/*.css -u postcss-import -u postcss-nesting -u postcss-custom-media -u postcss-custom-selectors -u postcss-extend -u postcss-for -u autoprefixer -u cssnano --no-map -d dist/",
 		"build-js": "parcel build src/js/*.js --no-source-maps --no-cache --dist-dir dist/",
 		"build": "npm run build-css && npm run build-js",
-        "test": "exit 0"
+		"test": "exit 0"
 	},
 	"repository": {
 		"type": "git",
@@ -33,5 +33,8 @@
 	"homepage": "https://andreyshpigunov.github.io/auto-x/",
 	"browserslist": [
 		"defaults"
-	]
+	],
+	"dependencies": {
+		"@andreyshpigunov/auto-x": "^1.0.0"
+	}
 }
