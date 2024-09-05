@@ -33,8 +33,5 @@
 	"homepage": "https://andreyshpigunov.github.io/auto-x/",
 	"browserslist": [
 		"defaults"
-	],
-	"dependencies": {
-		"@andreyshpigunov/auto-x": "^1.0.0"
-	}
+	]
 }
